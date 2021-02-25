@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:khaki;
+}
+
+
+h1, h2 {
+    color: red;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: line-through;
+    margin: 20px 0 20px;
+}
+
+
+.Leon{
+    font-weight: 900;
+    text-transform: uppercase;
+    color: lightcoral;
+}
+.line{
+    color: lightseagreen;
+    font-style: italic;
+}
+
+
+.like{
+    color: red;
+    text-decoration:line-through;
+}
+
+
+.chapter{
+    color: green;
+}
+
+.box {
+    /* position: absolute; */
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: darkorchid;
+    padding: 20px;
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: lightseagreen; */
+    border: 3px solid lightseagreen;
+    margin: 20px;
+    z-index: 4;
+    vertical-align: middle;
+}
+
+a {
+    padding: 20px;
+    margin: 20px;
+}
+
+img {
+    display: block;
+    margin:  0 auto;
+    /* float: right; */
+
+}
+
+li {
+    color: darkred;
+    font-weight: 900;
+}
+
+nav {    
+    /* position: relative; position: absolute; static fixed*/
+    position: fixed;
+    right: 50px;
+    top: 10px;
+    
+}
+
+.red {
+    /* position: absolute; */
+    background-color: red;
+    /* left: 100px;
+    z-index: 5; */
+    /* height: 150px;
+     */
+     width: 50%;
+}
+.example{
+    position: relative;
+    /* background-color: rgb(182, 178, 176);
+    top: 0px;
+    height: 700px; */
+
+}
+
+/* Блочные элементы */
+/* Строчные элементы */
+/* Строчно-блочные элементы */
+
